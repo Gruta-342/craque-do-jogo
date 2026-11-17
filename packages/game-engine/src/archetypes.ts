@@ -38,7 +38,7 @@ export const ARCHETYPES: ArchetypeDefinition[] = [
   { id: "winger_wide_playmaker", name: "Ponta Construtor", description: "Cria chances aberto, combinando passe e cruzamento.", positions: ["LW", "RW"], boosts: { crossing: 9, vision: 6, passing: 6 } },
 
   { id: "st_poacher", name: "Finalizador", description: "Especialista em encontrar espaço e concluir as jogadas.", positions: ["ST"], boosts: { finishing: 12, positioning: 8, composure: 5 } },
-  { id: "st_target_man", name: "Homem de Referência", description: "Usa o corpo, disputa bolas e segura o ataque.", positions: ["ST"], boosts: { strength: 10, heading: 0, ballControl: 4, passing: 3 } },
+  { id: "st_target_man", name: "Homem de Referência", description: "Usa o corpo, disputa bolas e segura o ataque.", positions: ["ST"], boosts: { strength: 10, ballControl: 4, passing: 3 } },
   { id: "st_false_nine", name: "Falso 9", description: "Sai da área para participar da criação e confundir a marcação.", positions: ["ST"], boosts: { passing: 7, vision: 7, dribbling: 6, ballControl: 5 } },
   { id: "st_second_striker", name: "Segundo Atacante", description: "Flutua ao redor do centroavante e combina criação com chegada à área.", positions: ["ST"], boosts: { dribbling: 6, passing: 5, finishing: 6, vision: 4 } }
 ];
