@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Craque do Jogo",
+    "slug": "craque-do-jogo",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": { "backgroundColor": "#0b1010" },
+    "ios": { "supportsTablet": true },
+    "android": { "adaptiveIcon": { "backgroundColor": "#0b1010" } }
+  }
+}

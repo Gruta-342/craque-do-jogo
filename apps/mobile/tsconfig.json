@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "paths": {
+      "@craque/game-engine": ["../../packages/game-engine/src/index.ts"],
+      "@craque/shared": ["../../packages/shared/src/index.ts"]
+    }
+  },
+  "include": ["App.tsx", "**/*.ts", "**/*.tsx"]
+}
