@@ -12,6 +12,16 @@ export type Position =
 
 export type PreferredFoot = "right" | "left" | "both";
 
+export type ArchetypeId =
+  | "gk_shot_stopper" | "gk_sweeper" | "gk_distributor"
+  | "cb_marker" | "cb_ball_playing" | "cb_anticipator"
+  | "fullback_attacking" | "fullback_balanced" | "fullback_defensive"
+  | "cdm_destroyer" | "cdm_deep_playmaker" | "cdm_anchor"
+  | "cm_box_to_box" | "cm_playmaker" | "cm_tempo_setter"
+  | "cam_creator" | "cam_shadow_striker" | "cam_dribbler"
+  | "winger_dribbler" | "winger_inside_forward" | "winger_wide_playmaker"
+  | "st_poacher" | "st_target_man" | "st_false_nine" | "st_second_striker";
+
 export interface PlayerAttributes {
   finishing: number;
   passing: number;
@@ -29,6 +39,10 @@ export interface PlayerAttributes {
   positioning: number;
   decisionMaking: number;
   leadership: number;
+  reflexes: number;
+  elasticity: number;
+  rushingOut: number;
+  distribution: number;
 }
 
 export interface Athlete {
@@ -40,7 +54,7 @@ export interface Athlete {
   weightKg: number;
   preferredFoot: PreferredFoot;
   position: Position;
-  archetype: string;
+  archetype: ArchetypeId;
   origin: CareerOrigin;
   potential: number;
   overall: number;

@@ -1,25 +1,26 @@
 # Roadmap de desenvolvimento
 
-## Etapa 0 — Fundação (esta versão)
+## Etapa 0 — Fundação
 - [x] Monorepo npm workspaces + Turborepo
 - [x] Next.js para web
 - [x] Expo para mobile
 - [x] Pacote TypeScript compartilhado
 - [x] Primeiro cálculo de Overall
 - [x] Primeira geração de propostas
-- [ ] Instalação e validação local no computador do projeto
 
 ## Etapa 1 — Criação do atleta
-- [ ] Formulário completo conforme GDD
-- [ ] Regras de idade inicial (16 a 18)
-- [ ] Nacionalidade e origem
-- [ ] Posição e arquétipo
-- [ ] Distribuição inicial de atributos por posição e arquétipo
+- [x] Regras de idade inicial (16 a 18)
+- [x] Nacionalidade, altura, peso e pé dominante
+- [x] Posição e catálogo inicial de arquétipos
+- [x] Atributos de goleiro (reflexos, elasticidade, saída do gol e reposição)
+- [x] Distribuição inicial de atributos por posição e arquétipo
+- [x] Overall calculado conforme a posição
+- [ ] Interface completa web/mobile e validação visual no dispositivo
 
 ## Etapa 2 — Propostas e início da carreira
-- [ ] Catálogo inicial de clubes
-- [ ] Probabilidades por nacionalidade, origem e reputação
-- [ ] Três propostas com resumo financeiro e esportivo
+- [x] Catálogo inicial de clubes
+- [x] Probabilidades por nacionalidade, origem e reputação
+- [x] Três propostas sem repetição, com peso de probabilidade e resumo financeiro/esportivo
 - [ ] Escolha do clube e criação do estado inicial da carreira
 
 ## Etapa 3 — Ciclo semestral
