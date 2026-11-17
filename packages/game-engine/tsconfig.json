@@ -1,5 +1,5 @@
 {
   "extends": "../../tsconfig.base.json",
-  "compilerOptions": { "baseUrl": ".", "paths": { "@craque/shared": ["../shared/src/index.ts"] } },
+  "compilerOptions": { "paths": { "@craque/shared": ["../shared/src/index.ts"] } },
   "include": ["src/**/*.ts"]
 }

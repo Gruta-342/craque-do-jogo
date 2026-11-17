@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "@craque/game-engine": "0.1.0",
-    "@craque/mobile": "file:",
     "@craque/shared": "0.1.0",
     "expo": "^58.0.26",
     "expo-status-bar": "~58.0.5",
